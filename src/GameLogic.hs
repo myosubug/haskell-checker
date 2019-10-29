@@ -38,15 +38,15 @@ initialGameState =
             , _status = Red
             , _message = ""}
 
-blackInit :: [Coord]
-blackInit = [ (1,0), (3,0), (5,0), (7,0)
-            , (0,1), (2,1), (4,1), (6,1)
-            , (1,2), (3,2), (5,2), (7,2)]
+blackInit :: [Coord]
+blackInit = [ (1,0), (3,0), (5,0), (7,0)
+            , (0,1), (2,1), (4,1), (6,1)
+            , (1,2), (3,2), (5,2), (7,2)]
 
-redInit :: [Coord]
-redInit = [ (0,7), (2,7), (4,7), (6,7)
-          , (1,6), (3,6), (5,6), (7,6)
-          , (0,5), (2,5), (4,5), (6,5)]
+redInit :: [Coord]
+redInit = [ (0,7), (2,7), (4,7), (6,7)
+          , (1,6), (3,6), (5,6), (7,6)
+          , (0,5), (2,5), (4,5), (6,5)]
 
 setMessage :: GameState -> GameState
 setMessage s = case (s^.status) of

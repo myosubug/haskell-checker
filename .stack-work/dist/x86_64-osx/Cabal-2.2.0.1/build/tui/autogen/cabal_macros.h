@@ -33,17 +33,6 @@
   (major1) == 0 && (major2) == 0 && (minor) <= 0)
 #endif /* MIN_VERSION_tui */
 
-/* tool alex-3.2.4 */
-#ifndef TOOL_VERSION_alex
-#define TOOL_VERSION_alex "3.2.4"
-#endif /* TOOL_VERSION_alex */
-#ifndef MIN_TOOL_VERSION_alex
-#define MIN_TOOL_VERSION_alex(major1,major2,minor) (\
-  (major1) <  3 || \
-  (major1) == 3 && (major2) <  2 || \
-  (major1) == 3 && (major2) == 2 && (minor) <= 4)
-#endif /* MIN_TOOL_VERSION_alex */
-
 /* tool gcc-4.2.1 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "4.2.1"
@@ -88,17 +77,6 @@
   (major1) == 2 && (major2) == 20 && (minor) <= 0)
 #endif /* MIN_TOOL_VERSION_haddock */
 
-/* tool happy-1.19.9 */
-#ifndef TOOL_VERSION_happy
-#define TOOL_VERSION_happy "1.19.9"
-#endif /* TOOL_VERSION_happy */
-#ifndef MIN_TOOL_VERSION_happy
-#define MIN_TOOL_VERSION_happy(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  19 || \
-  (major1) == 1 && (major2) == 19 && (minor) <= 9)
-#endif /* MIN_TOOL_VERSION_happy */
-
 /* tool hpc-0.67 */
 #ifndef TOOL_VERSION_hpc
 #define TOOL_VERSION_hpc "0.67"
@@ -121,17 +99,6 @@
   (major1) == 0 && (major2) == 68 && (minor) <= 3)
 #endif /* MIN_TOOL_VERSION_hsc2hs */
 
-/* tool hscolour-1.24 */
-#ifndef TOOL_VERSION_hscolour
-#define TOOL_VERSION_hscolour "1.24"
-#endif /* TOOL_VERSION_hscolour */
-#ifndef MIN_TOOL_VERSION_hscolour
-#define MIN_TOOL_VERSION_hscolour(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  24 || \
-  (major1) == 1 && (major2) == 24 && (minor) <= 0)
-#endif /* MIN_TOOL_VERSION_hscolour */
-
 /* tool runghc-8.4.4 */
 #ifndef TOOL_VERSION_runghc
 #define TOOL_VERSION_runghc "8.4.4"
@@ -144,7 +111,7 @@
 #endif /* MIN_TOOL_VERSION_runghc */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "tui-0.0.0.1-LaAvQJO8U0hBrVnCUKriW-tui"
+#define CURRENT_COMPONENT_ID "tui-0.0.0.1-9lLxITXitoEJdWL7uGNCp3-tui"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.0.0.1"

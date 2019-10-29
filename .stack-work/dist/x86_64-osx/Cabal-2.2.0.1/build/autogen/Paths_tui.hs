@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,0,0,1] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/Users/benjamin.macadam/Teaching/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/lts-12.18/8.4.4/bin"
-libdir     = "/Users/benjamin.macadam/Teaching/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/lts-12.18/8.4.4/lib/x86_64-osx-ghc-8.4.4/tui-0.0.0.1-4nH3Tw41p0IFkTdq2m9BjA"
-dynlibdir  = "/Users/benjamin.macadam/Teaching/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/lts-12.18/8.4.4/lib/x86_64-osx-ghc-8.4.4"
-datadir    = "/Users/benjamin.macadam/Teaching/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/lts-12.18/8.4.4/share/x86_64-osx-ghc-8.4.4/tui-0.0.0.1"
-libexecdir = "/Users/benjamin.macadam/Teaching/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/lts-12.18/8.4.4/libexec/x86_64-osx-ghc-8.4.4/tui-0.0.0.1"
-sysconfdir = "/Users/benjamin.macadam/Teaching/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/lts-12.18/8.4.4/etc"
+bindir     = "/Users/myosubug/Documents/programming/school/cpsc449/haskell/assignment/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/db60d835f739b1adb430fc29fb3ffc2429631e6faa7653904a7ea28f0840eef2/8.4.4/bin"
+libdir     = "/Users/myosubug/Documents/programming/school/cpsc449/haskell/assignment/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/db60d835f739b1adb430fc29fb3ffc2429631e6faa7653904a7ea28f0840eef2/8.4.4/lib/x86_64-osx-ghc-8.4.4/tui-0.0.0.1-6DT8dSM2lNwDNAp5OgcVpJ"
+dynlibdir  = "/Users/myosubug/Documents/programming/school/cpsc449/haskell/assignment/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/db60d835f739b1adb430fc29fb3ffc2429631e6faa7653904a7ea28f0840eef2/8.4.4/lib/x86_64-osx-ghc-8.4.4"
+datadir    = "/Users/myosubug/Documents/programming/school/cpsc449/haskell/assignment/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/db60d835f739b1adb430fc29fb3ffc2429631e6faa7653904a7ea28f0840eef2/8.4.4/share/x86_64-osx-ghc-8.4.4/tui-0.0.0.1"
+libexecdir = "/Users/myosubug/Documents/programming/school/cpsc449/haskell/assignment/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/db60d835f739b1adb430fc29fb3ffc2429631e6faa7653904a7ea28f0840eef2/8.4.4/libexec/x86_64-osx-ghc-8.4.4/tui-0.0.0.1"
+sysconfdir = "/Users/myosubug/Documents/programming/school/cpsc449/haskell/assignment/Haskell-Checkers-Frontend/.stack-work/install/x86_64-osx/db60d835f739b1adb430fc29fb3ffc2429631e6faa7653904a7ea28f0840eef2/8.4.4/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "tui_bindir") (\_ -> return bindir)
