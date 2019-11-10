@@ -3,9 +3,9 @@
 This project is built with the front-end provided by https://github.com/benjamin-macadam/Haskell-Checkers-Frontend.git.
 Please read from "System" section to understand and install front-end of this checker game.
 
-This is an app that can:
+This is Haskell based Checker game:
 
-* play checker as human VS human, human vs AI, AI vs AI 
+* can play checker as human VS human, human vs AI, AI vs AI 
 * AI is built with min/max tree and alpha beta pruning (heuristic of AI is based on number of piecec on each player of a game state)
 * To play as human, the command is to move cursor by arrow keys, and select piece and destination by space key, and execute by enter key
 * when multiple jump is available, make sure to mark all the multiple destination by space then press enter to perform multiple jumps.
