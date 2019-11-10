@@ -10,7 +10,8 @@ This is an app that can:
 * To play as human, the command is to move cursor by arrow keys, and select piece and destination by space key, and execute by enter key
 * when multiple jump is available, make sure to mark all the multiple destination by space then press enter to perform multiple jumps.
 * Screenshot of demo
-![demo](../master/demoimg/checker_demo.png)
+
+![demo](../master/demo_img/checker_demo.png)
 
 # System
 
