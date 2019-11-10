@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.1.
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e8025003279bca14812e30c9e0b2469ac972fa2b30e19167ba61336867c9bcb3
+-- hash: 51c6091ef8fb42e437e89f8820f616446e55b6fcf8135f204fc23eb0b29ba966
 
 name:           tui
 version:        0.0.0.1
@@ -20,6 +20,7 @@ source-repository head
 library
   exposed-modules:
       Checkers
+      CheckersAI_ABPruning
       GameLogic
   other-modules:
       Paths_tui
